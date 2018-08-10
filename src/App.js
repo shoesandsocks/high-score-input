@@ -12,7 +12,7 @@ import fbi from './images/fbi.png';
 
 const Wrapper = styled.div`
   width: ${({ width }) => `${width}px`};
-  height: ${({ width }) => `${Math.min(800, 4 / 3 * width)}px`};
+  height: ${({ width }) => `${Math.min(800, 5 / 3 * width)}px`};
   margin: 0 auto;
   background: #121;
   opacity: .8;
@@ -55,7 +55,7 @@ class App extends React.Component {
             style={{ margin: '0 auto', maxWidth: '800px' }}
             width="100%"
             // width={`${Math.min(390, width)}px`}
-            height={`${Math.min(800, 4 / 3 * width)}px`}
+            height={`${Math.min(800, 5 / 3 * width)}px`}
             src={fbi}
             alt="winners don't play videogames"
           />
