@@ -1,0 +1,11 @@
+@font-face {
+  font-family: 'Vectorhand-Regular';
+  src: local('Vectorhand-Regular'),
+    url(./fonts/Vectorhand-Regular.ttf) format('truetype');
+}
+
+html {
+  background: black;
+  font-family: 'Vectorhand-Regular', 'Franklin Gothic Medium', 'Arial Narrow',
+    Arial, sans-serif;
+}
