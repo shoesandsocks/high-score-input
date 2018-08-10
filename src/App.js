@@ -64,7 +64,7 @@ class App extends React.Component {
     }
     return (
       <Wrapper width={width}>
-        <Header />
+        <Header width={width} />
         <BigText>
           HIGH SCORE
         </BigText>
@@ -75,6 +75,12 @@ class App extends React.Component {
           ENTER INITIALS
         </BigText>
         <Main />
+        {width < 500
+          && (
+            <p style={{ textAlign: 'center', fontSize: '18px' }}>
+               credits remaining: 2
+            </p>
+          )}
         <Footer width={width} />
       </Wrapper>
     );
