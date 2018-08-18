@@ -18,7 +18,7 @@ const HeadWrap = styled.div`
 const Header = ({ width }) => (
   <HeadWrap>
     <HeaderText>
-      pork nacho golf invitational
+      gatorwood invitational
     </HeaderText>
     {width > 500
       && (
